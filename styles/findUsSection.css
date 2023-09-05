@@ -1,0 +1,204 @@
+.contact {
+    color: var(--FFFFFF, #FFF);
+    font-family: Cormorant Upright;
+    font-size: 1.4375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 0.0575rem;
+    margin-bottom: 0;
+
+}
+
+.findUs {
+    color: var(--DCCA87, #DCCA87);
+    font-family: Cormorant Upright;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 0.16rem;
+    margin-top: 0;
+    margin-bottom: 4rem;
+
+}
+
+.address {
+    color: var(--AAAAAA, #AAA);
+    font-family: Open Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 175%;
+    letter-spacing: 0.04rem;
+    margin-bottom: 2rem;
+}
+
+.openHours {
+    color: var(--DCCA87, #DCCA87);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: Cormorant Upright;
+    font-size: 1.4375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 0.0575rem;
+    margin-bottom: 1rem;
+
+}
+
+
+.hours {
+    color: var(--FFFFFF, #FFF);
+    font-family: Open Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 175%;
+    letter-spacing: 0.04rem;
+
+}
+
+.visitUs {
+    background-color: #DCCA87;
+    font-family: Cormorant Upright;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 175%;
+    letter-spacing: 0.04rem;
+    padding: 0.5rem 2rem;
+
+}
+
+.contactSpoon {
+    transform: rotate(180deg);
+    margin-bottom: 0;
+}
+
+
+.findUsSection {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 7.5rem;
+}
+
+.cocktail {
+    width: 40%;
+    height: 85%;
+}
+
+@media screen and (max-width: 450px) {
+    .mobileFindUsSection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 7.5rem;
+
+        margin-top: 7rem;
+
+    }
+
+    .mobileContact {
+        color: var(--FFFFFF, #FFF);
+        font-family: Cormorant Upright;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 130%;
+        letter-spacing: 0.0575rem;
+        margin-bottom: 0;
+    }
+
+
+
+    .mobileContactSpoon {
+        transform: rotate(180deg);
+        width: 2rem;
+        max-width: 2rem;
+    }
+
+
+    .mobileFindUs {
+        color: var(--DCCA87, #DCCA87);
+        font-family: Cormorant Upright;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 130%;
+        letter-spacing: 0.16rem;
+        margin-top: 0;
+        margin-bottom: 4rem;
+    }
+
+
+    .mobileAddress {
+        color: var(--AAAAAA, #AAA);
+        font-family: Open Sans;
+        font-size: 0.7rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 175%;
+        letter-spacing: 0.04rem;
+        margin-bottom: 2rem;
+    }
+
+
+    .mobileOpenHours {
+        color: var(--DCCA87, #DCCA87);
+        font-variant-numeric: lining-nums tabular-nums;
+        font-family: Cormorant Upright;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 130%;
+        letter-spacing: 0.0575rem;
+        margin-bottom: 1rem;
+    }
+
+
+    .mobileHours {
+        color: var(--FFFFFF, #FFF);
+        font-family: Open Sans;
+        font-size: 0.7rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 175%;
+        letter-spacing: 0.04rem;
+
+    }
+
+
+    .mobileVisitUs {
+        background-color: #DCCA87;
+        font-family: Cormorant Upright;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 175%;
+        letter-spacing: 0.04rem;
+        padding: 0.25rem 1rem;
+        margin-top: 1rem;
+        border: none;
+    }
+
+
+
+    .mobileCocktail {
+        width: 80%;
+    }
+
+    .mobileCocktailDiv {
+        margin-top: 8rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
+}

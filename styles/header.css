@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #0C0B08;
+
+    width: 100%;
+    /*background: purple;*/
+}
+
+
+.container {
+    width: 100%;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 7.5rem;
+
+    width: 100%;
+
+}
+
+h1 {
+    color: #fff;
+    font-family: Cormorant Upright;
+    font-size: 2.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    /* 3.575rem */
+    letter-spacing: 0.11rem;
+    text-transform: uppercase;
+
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+
+}
+
+
+.loginSection ul {
+    display: flex;
+    list-style-type: none;
+    gap: 3.125rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginSection a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    font-style: normal;
+    line-height: 175%;
+    /* 1.75rem */
+    text-transform: capitalize;
+}
+
+.loginSection a:hover {
+    color: #DCCA87;
+}
+
+
+
+header nav a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 0.04rem;
+    transition: all 0.5s ease;
+    font-style: normal;
+    line-height: 175%;
+    /* 1.75rem */
+
+}
+
+header nav a {
+    color: #fff;
+}
+
+.loginSection a {
+    color: #fff;
+}
+
+header nav a:hover {
+    color: #DCCA87;
+}
+
+header nav a:active {
+    color: #DCCA87;
+}
+
+.headerButton {
+    background: transparent;
+}
+
+.loginLine {
+    height: 2rem;
+}
+
+.mobile {
+    display: none;
+}
+
+
+@media screen and (max-width: 450px) {
+
+    .webView {
+        display: none !important;
+    }
+
+    .gContainer {
+        display: none;
+    }
+
+
+    .wholeTodaySpecial {
+        display: none;
+    }
+
+    .chefSection {
+        display: none;
+    }
+
+
+    .mobile {
+        display: block;
+    }
+
+    .mobileHeader {
+        display: block;
+        width: 100%;
+        display: flex;
+        padding-left: 1rem;
+        gap: 11rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+        padding-left: 0;
+
+    }
+
+
+    .loginSection,
+    header nav {
+        display: none;
+    }
+
+
+    .hamburger {
+        display: block;
+        background: transparent;
+        border: none;
+        outline: none;
+        width: 50px;
+        height: 50px;
+    }
+
+    .hamburger svg {
+        transform: scale(0.8);
+    }
+
+    .hamburger svg path {
+        fill: #fff;
+    }
+}

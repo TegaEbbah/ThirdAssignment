@@ -1,0 +1,124 @@
+.awardsSection {
+    width: 100%;
+    display: flex;
+
+    margin-top: 5rem;
+    padding-left: 1rem;
+    margin-bottom: 6rem;
+
+}
+
+
+.awardsAndRecognition {
+    color: var(--ffffff, #FFF);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: Cormorant Upright;
+    font-size: 1.4375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 0.0575rem;
+
+}
+
+.ourLaurels {
+    color: var(--dcca-87, #DCCA87);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: Cormorant Upright;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 0.12rem;
+
+}
+
+.award {
+    color: var(--dcca-87, #DCCA87);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: Cormorant Upright;
+    font-size: 1.4375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 0.0575rem;
+}
+
+.underAward {
+    color: var(--aaaaaa, #AAA);
+    font-family: Open Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 175%;
+    letter-spacing: 0.04rem;
+
+}
+
+.awardArea {
+    display: flex;
+}
+
+.awardArea ul li {
+    list-style-type: none;
+}
+
+.awardsAndImage {
+    display: flex;
+    margin-top: 5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+
+}
+
+.awardSectionImg {
+    height: 80vh;
+}
+
+.awardsAndRecognition {
+    margin-bottom: 0;
+}
+
+.awardSpoon {
+    transform: rotate(180deg);
+}
+
+.ourLaurels {
+    margin-top: 0;
+
+}
+
+.ourLaurelsSection {
+    margin-left: 3rem;
+}
+
+
+.twoAndFive {
+    margin-top: 3rem;
+}
+
+
+.oneAndThree {
+    margin-top: 3rem;
+}
+
+
+.twoBottom {
+    margin-bottom: 3rem;
+
+}
+
+.oneBottom {
+    margin-bottom: 3rem;
+}
+
+
+.underAward {
+    margin-top: 0;
+}
+
+
+.award {
+    margin-bottom: 0.5rem;
+}
